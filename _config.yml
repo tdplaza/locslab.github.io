@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: LOCS Tech Blog
+name: LOCS Blog
 
 # Short bio or description (displayed in the header)
 description: LOCS developments Blog
@@ -20,7 +20,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
+  - name: LOCS Blog
     url: /
   - name: About
     url: /about
