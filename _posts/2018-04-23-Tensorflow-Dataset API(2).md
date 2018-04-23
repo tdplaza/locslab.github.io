@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tensorflow Dataset API  이야기"
+title: "Tensorflow Dataset API 두번째 이야기"
 tags: [Tensorflow, Dataset API]
 comments: true
 ---
