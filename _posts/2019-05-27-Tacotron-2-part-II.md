@@ -7,15 +7,15 @@
 여러 처리 방법 있는데, 저희가 https://github.com/scarletcho/KoG2P 방법을 적용합니다. 
 이 방법은, 먼저 한글에 있는 음소를 모두 아래 데이플에 정의합니다:
 
-  hangul_symbol_1 = [u"␀", u"␃", u'"', " ", "!", ",", ".", "?", 'aa', 'c0', 'cc', 'ch', 'ee', 'h0', 'ii', 'k0', 'kf', 'kh',
-                     'kk',
-                     'ks', 'lb', 'lh', 'lk', 'll', 'lm', 'lp',
-                     'ls', 'lt', 'mf', 'mm', 'nc', 'nf', 'nh', 'nn', 'ng', 'oh', 'oo', 'p0', 'pf', 'ph', 'pp', 'ps', 'qq',
-                     'rr',
-                     's0',
-                     'ss', 't0', 'tf', 'th', 'tt', 'uu', 'vv', 'wa', 'we', 'wi', 'wo', 'wq', 'wv', 'xi', 'xx', 'ya', 'ye',
-                     'yo',
-                     'yq', 'yu', 'yv']
+    hangul_symbol_1 = [u"␀", u"␃", u'"', " ", "!", ",", ".", "?", 'aa', 'c0', 'cc', 'ch', 'ee', 'h0', 'ii', 'k0', 'kf', 'kh',
+                       'kk',
+                       'ks', 'lb', 'lh', 'lk', 'll', 'lm', 'lp',
+                       'ls', 'lt', 'mf', 'mm', 'nc', 'nf', 'nh', 'nn', 'ng', 'oh', 'oo', 'p0', 'pf', 'ph', 'pp', 'ps', 'qq',
+                       'rr',
+                       's0',
+                       'ss', 't0', 'tf', 'th', 'tt', 'uu', 'vv', 'wa', 'we', 'wi', 'wo', 'wq', 'wv', 'xi', 'xx', 'ya', 'ye',
+                       'yo',
+                       'yq', 'yu', 'yv']
                    
 
 그다음에 텍스트에 있는 수자가 모두 텍스트로 바꾸고 위 음소 규직적용하고 분리합니다. 마지막 symbol는 특변한 "끝" symbol 입니다. 
