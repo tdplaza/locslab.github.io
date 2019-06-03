@@ -35,6 +35,7 @@ hangul_symbol_1 = [u"␀", u"␃", u'"', " ", "!", ",", ".", "?", 'aa', 'c0', 'c
 음성 파일은 librosa package (librosa.load()) 사용하여 series으로 변환됩니다. 
 
 우리 예 문장의 음성은 wav.shape = (65792,) 1-d array로 변환되었습니다. 아래 array가 100 데이터 점입니다.  (위치 10000~10100)
+
 wav[10000:10100] = array([-2.3133825e-03, -1.3194837e-03,  8.8331959e-04,  1.7781456e-03,
         8.1384653e-04,  1.4920419e-04,  3.4220162e-04, -4.8555573e-04,
        -1.5456340e-03, -6.0020003e-04,  7.8924972e-04,  6.3178834e-04,
@@ -66,4 +67,4 @@ wav[10000:10100] = array([-2.3133825e-03, -1.3194837e-03,  8.8331959e-04,  1.778
 
 Librosa package 사용하여 위 array을 아래 melspectrogram으로 변환 됩니다. 
 
-![melspectrogram] https://github.com/tdplaza/tdplaza.github.io/blob/master/images/mel.PNG
+![melspectrogram] (https://github.com/tdplaza/tdplaza.github.io/blob/master/images/mel.PNG)
