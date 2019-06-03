@@ -68,3 +68,8 @@
 Librosa package 사용하여 위 array을 아래 melspectrogram으로 변환 됩니다. 
 
 ![melspectrogram](https://github.com/tdplaza/tdplaza.github.io/blob/master/images/mel.PNG)
+
+가로는 음성 파일의 길이이고 세로는 melspectrogram 채널 입니다. 색갈은 데이터 점의 크기의 따라 다릅니다. 
+
+
+여기까지는 우리 2 input 데이터있습니다. 첫째 1-d 텍스트 array과 둘째, 2-d melspectrogram array.
