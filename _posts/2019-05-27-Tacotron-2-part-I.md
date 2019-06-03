@@ -1,4 +1,4 @@
-# 제목 Tacotron-2 - 제1부 구성 소개
+# Tacotron-2 - 제1부 구성 소개
 
 ## I. Google의 음성합성 기술
 2017년 12월에 Google가 "NATURAL TTS SYNTHESIS BY CONDITIONINGWAVENET ON MEL SPECTROGRAM PREDICTIONS"라는 논문을 발표했습니다. 이논문에은 인간 목소리를 자연스럽게 합성해 주는 딥러닝 모델을 제안했습니다. 전 음성합성 기술과 달리, tacotron-2은 복잡한 언어 및 어쿠스틱 특징을 사용하지않고 바로 음성과 대응 텍스트으로 학습된 모델통해 합성 텍스트로 음성을 자연스럽게 만들어냅니다. 
